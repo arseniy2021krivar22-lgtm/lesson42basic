@@ -1,14 +1,15 @@
 #include "logic.h"
 
 string detect_mood() {
-	int  n = rand() % 5;
+	int n = rand() % MOOD_NUMBER;
 
-	string mood = ":)";
+	string mood = GOOD_MOOD;
+
 	switch (n) {
-	case 0:mood = ":))"; break;
-	case 1:mood = ":/"; break;
-	case 2:mood = ":("; break;
-	case 3:mood = ":()"; break;
+	case 0:mood = HAPPY_MOOD; break;
+	case 1:mood = BAD_MOOD; break;
+	case 2:mood = NORM_MOOD; break;
+	case 3:mood = SHOUTED_MOOD; break;
 	}
 	return mood;
 }
