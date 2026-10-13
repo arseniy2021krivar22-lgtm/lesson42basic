@@ -128,6 +128,7 @@
     <ClCompile Include="test.cpp" />
     <ClCompile Include="test01.cpp" />
     <ClCompile Include="test02.cpp" />
+    <ClCompile Include="test03.cpp" />
     <ClCompile Include="test_runner.cpp" />
   </ItemGroup>
   <ItemGroup>
