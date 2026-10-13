@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.37614.0 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lesson42baiscsolution", "lesson42baiscsolution\lesson42baiscsolution.vcxproj", "{0B2072C3-7895-448E-A82D-AB8B706DE1E1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test01project", "lesson42baiscsolution\lesson42baiscsolution.vcxproj", "{0B2072C3-7895-448E-A82D-AB8B706DE1E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "task02project", "task01Project\task01Project.vcxproj", "{E2E6F0A9-B26F-49E9-B62E-6A478A378097}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{0B2072C3-7895-448E-A82D-AB8B706DE1E1}.Release|x64.Build.0 = Release|x64
 		{0B2072C3-7895-448E-A82D-AB8B706DE1E1}.Release|x86.ActiveCfg = Release|Win32
 		{0B2072C3-7895-448E-A82D-AB8B706DE1E1}.Release|x86.Build.0 = Release|Win32
+		{E2E6F0A9-B26F-49E9-B62E-6A478A378097}.Debug|x64.ActiveCfg = Debug|x64
+		{E2E6F0A9-B26F-49E9-B62E-6A478A378097}.Debug|x64.Build.0 = Debug|x64
+		{E2E6F0A9-B26F-49E9-B62E-6A478A378097}.Debug|x86.ActiveCfg = Debug|Win32
+		{E2E6F0A9-B26F-49E9-B62E-6A478A378097}.Debug|x86.Build.0 = Debug|Win32
+		{E2E6F0A9-B26F-49E9-B62E-6A478A378097}.Release|x64.ActiveCfg = Release|x64
+		{E2E6F0A9-B26F-49E9-B62E-6A478A378097}.Release|x64.Build.0 = Release|x64
+		{E2E6F0A9-B26F-49E9-B62E-6A478A378097}.Release|x86.ActiveCfg = Release|Win32
+		{E2E6F0A9-B26F-49E9-B62E-6A478A378097}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
