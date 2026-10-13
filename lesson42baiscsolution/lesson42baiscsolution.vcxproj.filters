@@ -27,6 +27,9 @@
     <ClCompile Include="test01.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="test02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="logic.h">
