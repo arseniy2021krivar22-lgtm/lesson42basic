@@ -1,4 +1,4 @@
 #include <iostream>
-#define NUMBER 3.0
+#define NUMBER 5.0
 using namespace std;
-double calculate_avg(int mark1, int mark2, int mark3);
+double calculate_avg(int mark1, int mark2, int mark3,int mark4,int mark5);
