@@ -1,9 +1,11 @@
 #include "logic.h"
 int main() {
-	int mark1, mark2, mark3,mark4,mark5;
-	cout << "Input student marks: " << endl;
-	cin >> mark1 >> mark2 >> mark3>>mark4>>mark5;
-	double avg = calculate_avg(mark1, mark2, mark3,mark4,mark5);
+	int marks[NUMBER];
+	cout << "Inpu ten student marks: " << endl;
+	for (int i = 0  ; i < NUMBER; i++) {
+		cin >> marks[i];
+	}
+	double avg = calculate_avg(marks);
 	cout << "result: "<<avg << endl;
 
 	return 0;

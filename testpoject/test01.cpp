@@ -1,6 +1,4 @@
-#include <iostream>
-#define SIZE 10
-using namespace std;
+#include "logic.h"
 
 int main() {
 	int marks[SIZE];
@@ -11,9 +9,6 @@ int main() {
 	for (int index = 0; index < SIZE; index++) {
 		cin >> marks[index];
 	}
-	for (int index = 0; index < SIZE; index++) {
-		cout << marks[index] << endl;
-	}
-
+	print(marks);
 	return 0;
 }
