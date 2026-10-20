@@ -1,20 +1,19 @@
 #include <iostream>
+#define SIZE 10
 using namespace std;
 
 int main() {
-	int marks[5];
-	marks[0] = 8;
-	marks[1] = 7;
-	marks[2] = 9;
-	marks[3] = 10;
-	marks[4] = 10;
+	int marks[SIZE];
 	
-	cout << marks[0] << endl;
-	cout << marks[1] << endl;
-	cout << marks[2] << endl;
-	cout << marks[3] << endl;
-	cout << marks[4] << endl;
+	cout << "Input your ten max: ";
 
+
+	for (int index = 0; index < SIZE; index++) {
+		cin >> marks[index];
+	}
+	for (int index = 0; index < SIZE; index++) {
+		cout << marks[index] << endl;
+	}
 
 	return 0;
 }
